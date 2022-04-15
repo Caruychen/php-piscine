@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="doft.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="tile">
+        <div class="image-container">
+            <img id="day-of-the-42" class="image" src="resources/day_of_the_42.png">
+        </div>
+        <div class="image-container">
+            <img id="loupe" src="resources/loupe.png">
+            <div>
+                <a href="http://www.disney.com">
+                    <img id="reload" src="resources/reload.png" title="Start from the beginning"
+                        alt="Start from the beginning">
+                </a>
+                <a href="http://www.relaischateaux.com">
+                    <img src="resources/close.gif" title="Disconnect" alt="Disconnect">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="tile flex-column left-column">
+            <img src="resources/arrow.png" title="Move" alt="Move">
+            <img src="resources/main.png" title="Take" alt="Take">
+            <img id="look" src="resources/oeil.png" title="Look" alt="Look">
+            <img src="resources/outil.png" title="Use" alt="Use">
+            <img src="resources/chat-icon.png" title="Speak" alt="Speak">
+        </div>
+        <div class="tile center-column">
+            <img src="resources/cluster.jpg" usemap="#clustermap">
+            <map name="clustermap">
+                <area shape="rect" coords="330,330,450,500" href="http://www.ikea.com">
+                <area shape="rect" coords="810,320,1000,480" href="http://www.apple.com">
+            </map>
+        </div>
+        <div class="tile flex-column right-column">
+            <img id="book" src="resources/book.png" title="Don't panic" alt="Don't panic">
+            <img id="towel" src="resources/towel.png" title="Towel" alt="Towel">
+            <div id="brick" title="Brick" alt="Brick"></div>
+        </div>
+        <div id="footer">
+            <p class="text sans-serif">Vous</p>
+            <h2 class="text georgia">entrez</h2>
+            <p class="text sans-serif">alors dans une grande piece remplie </p>
+            <br />
+            <p class="text sans-serif">d'</p><p class="text sans-serif text-shadow">ordinateurs</p><p class="text sans-serif">...</p>
+            <br />
+            <i class="sans-serif">- Bonjour, vous &#0234tes nouveau ici ?</i>
+            <br />
+            <input type="text"><button>Repondre</button>
+        </div>
+        <img class="hidden" src="resources/doft.jpg">
+    </main>
+    </body>
+</html>

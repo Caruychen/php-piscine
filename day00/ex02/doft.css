@@ -1,0 +1,179 @@
+body {
+    background-color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    height: 10vh;
+    width: 1450px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+header > div {
+    flex: 1 1;
+}
+
+header > :nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 1 1;
+}
+
+header > :nth-child(2) > :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    width: 1470px;
+    max-width: 1470px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+.tile {
+    background-color: rgb(144, 144, 144);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    box-shadow: 10px 10px 10px;
+}
+
+.flex-column {
+    align-items: center;
+    flex-direction: column;
+    flex: 0 1 130px;
+    height: 420px;
+}
+
+.left-column {
+    justify-content: space-evenly;
+}
+
+.left-column > img{
+    width: 80px;
+    height: 80px;
+}
+
+.center-column {
+    height: 576px;
+    flex: 0 1 1024px;
+}
+
+.center-column > img {
+    min-width: 1024px;
+    min-height: 576px;
+    max-width: 1024px;
+    max-height: 576px;
+}
+
+.image-container {
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#reload {
+    width: 20px;
+    height: 20px;
+}
+
+#loupe {
+    height: 125%;
+    max-width: 100%;
+}
+
+#book {
+    width: 80px;
+    height: 100px;
+}
+
+#towel {
+    width: 80px;
+    height: 70px;
+}
+
+#brick {
+    width: 120px;
+    height: 70px;
+    background-image: url("resources/brick.jpg");
+}
+
+#look {
+    border: 5px solid red;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+#footer {
+    position: absolute;
+    top: 520px;
+    left: 0;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px;
+    background-color: rgb(166, 252, 150);
+    width: 470px;
+    padding-bottom: 60px;
+}
+
+.text{
+    display: inline;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.text-shadow {
+    text-shadow: 5px 5px 3px red;
+}
+
+input {
+    width: 345px;
+    height: 14px;
+    margin-left: 5px;
+    margin-top: 3px;
+    border: 2px solid;
+    border-bottom-color: #eeeeee;
+    border-right-color: #eeeeee;
+    border-left-color: #9d969d;
+    border-top-color: #9d969d;
+}
+
+button {
+    width: 75px;
+    height: 20px;
+    margin-left: 8px;
+    border-radius: 1px;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.25px;
+    background: linear-gradient(#f0f0f0, #dcdcdc);
+    border: solid #9d969d 1px;
+}
+
+.hidden {
+    display: none;
+}
